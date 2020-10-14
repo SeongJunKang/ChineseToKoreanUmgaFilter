@@ -7,7 +7,17 @@ NGramFilter를 이용하여 한글자씩 한자를 한글 독음으로 변환 �
 
 
 ## How to use
-- 해당 소스를 jar 파일로 생성하여 아래의 위치로 복사한다.
+
+- 1. maven install을 통해 다운로드를 한다
+```
+<dependency>
+  <groupId>com.sjkang</groupId>
+  <artifactId>chi2kor-umga</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
+
+- 2. 해당 소스를 jar 파일로 생성하여 아래의 위치로 복사한다.
 ```
 ${solr-home}/server/solr-webapp/webapp/WEB-INF/lib
 ```
